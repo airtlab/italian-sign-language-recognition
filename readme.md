@@ -6,7 +6,7 @@ This repository contains the source code of the experiments presented in the pap
 
 The paper is currently under review for the publication at the “4th International Conference Recent Trends and Applications In Computer Science And Information Technology” (RTA-CSIT 2021).
 
-Specifically, the source code is contained in a Jupyter notebook, which is available in the notebook folder of this repository.
+Specifically, the source code is contained in a Jupyter notebook, which is available in the “notebook” directory of this repository.
 
 The experiments are accuracy tests on the classification of the gestures of the Italian Sign Language (LIS) alphabet, based on surface electromyography (EMG) and Inertial Measurement Unit data collected with the Myo Gesture Control Armband. The classification is performed with a deep neural network, based on the Bidirectional Long Short Term Memory (Bi-LSTM) architecture.
 
@@ -32,14 +32,14 @@ With the twofold objective of using more training data and trying to prevent ove
 
 The layers of the implemented neural network are listed in the following table.
 
-| Layer Type                                     | Output Shape     | Parameters # |
-|------------------------------------------------|:----------------:|-------------:|
-| Bi-LSTM, *64 hidden units*, *return sequences* | (None, 400, 128) |        40448 |
-| Bi-LSTM, *32 hidden units*                     | (None, 64)       |        41216 |
-| Dropout, *0.5*                                 | (None, 64)       |            0 |
-| Dense, *64 hidden units*, *ReLU activation*    | (None, 64)       |         4160 |
-| Dropout, *0.5*                                 | (None, 64)       |            0 |
-| Dense, *26 hidden units*, *Softmax activation* | (None, 26)       |         1690 |
+| Layer Type                                     | Output Shape     | Parameter # |
+|------------------------------------------------|:----------------:|------------:|
+| Bi-LSTM, *64 hidden units*, *return sequences* | (None, 400, 128) |       40448 |
+| Bi-LSTM, *32 hidden units*                     | (None, 64)       |       41216 |
+| Dropout, *0.5*                                 | (None, 64)       |           0 |
+| Dense, *64 hidden units*, *ReLU activation*    | (None, 64)       |        4160 |
+| Dropout, *0.5*                                 | (None, 64)       |           0 |
+| Dense, *26 hidden units*, *Softmax activation* | (None, 26)       |        1690 |
 
 ## Experiments
 
