@@ -2,7 +2,7 @@
 
 This repository contains the source code of the experiments presented in the paper
 
->P. Sernani, I. Pacifici, N. Falcionelli, S. Tomassini, and A.F. Dragoni, *Italian sign language recognition from surface electromyography and inertial measurement unit sensors with a deep neural network*.
+>P. Sernani, I. Pacifici, N. Falcionelli, S. Tomassini, and A.F. Dragoni, *Italian sign language alphabet recognition from surface EMG and IMU sensors with a deep neural network*.
 
 The paper is published in the Proceedings of the 4th International Conference Recent Trends and Applications In Computer Science And Information Technology (RTA-CSIT 2021), which can be found at the following link:
 
