@@ -4,7 +4,9 @@ This repository contains the source code of the experiments presented in the pap
 
 >P. Sernani, I. Pacifici, N. Falcionelli, S. Tomassini, and A.F. Dragoni, *Italian sign language recognition from surface electromyography and inertial measurement unit sensors with a deep neural network*.
 
-The paper is published in the Proceedings of the 4th International Conference Recent Trends and Applications In Computer Science And Information Technology (RTA-CSIT 2021), which can be found at the following link: <http://ceur-ws.org/Vol-2872/>
+The paper is published in the Proceedings of the 4th International Conference Recent Trends and Applications In Computer Science And Information Technology (RTA-CSIT 2021), which can be found at the following link:
+
+><http://ceur-ws.org/Vol-2872/>
 
 Specifically, the source code is contained in a Jupyter notebook, which is available in the “notebook” directory of this repository.
 
@@ -58,7 +60,7 @@ Bibtex entry:
 
 	 @inproceedings{Sernani2021,
 	  author={Sernani, Paolo and Pacifici, Iacopo and Falcionelli, Nicola and Tomassini, Selenete and Dragoni, Aldo Franco},
-	  title={Italian sign language alphabet recognition from surface EMG and IMU sensors with a deep neural network},
+	  title={Italian sign language alphabet recognition from surface {EMG} and {IMU} sensors with a deep neural network},
 	  booktitle={Proceedings of the 4th International Conference on Recent Trends and Applications in Computer Science and Information Technology},
 	  series={CEUR Workshop Proceedings},
 	  year={2021},
