@@ -1,10 +1,10 @@
-# Italian sign language recognition from surface EMG and IMU sensors with a deep neural network
+# Italian sign language alphabet recognition from surface EMG and IMU sensors with a deep neural network
 
 This repository contains the source code of the experiments presented in the paper
 
 >P. Sernani, I. Pacifici, N. Falcionelli, S. Tomassini, and A.F. Dragoni, *Italian sign language recognition from surface electromyography and inertial measurement unit sensors with a deep neural network*.
 
-The paper is currently under review for the publication at the “4th International Conference Recent Trends and Applications In Computer Science And Information Technology” (RTA-CSIT 2021).
+The paper is published in the Proceedings of the 4th International Conference Recent Trends and Applications In Computer Science And Information Technology (RTA-CSIT 2021), which can be found at the following link: <http://ceur-ws.org/Vol-2872/>
 
 Specifically, the source code is contained in a Jupyter notebook, which is available in the “notebook” directory of this repository.
 
@@ -48,4 +48,24 @@ The notebook contains four experiments, based on the Stratified Shuffle Split st
 2. the repetition of 5 randomized splits on the augmented dataset;
 3. the repetition of 30 randomized splits on the original dataset;
 4. the repetition of 30 randomized splits on the augmented dataset.
+
+## Source code release agreement
+
+The source code of the experiments is freely released for research and educational purposes. Please cite as
+- P. Sernani, I. Pacifici, N. Falcionelli, S. Tomassini, A. F. Dragoni, Italian sign language alphabet recognition from surface EMG and IMU sensors with a deep neural network, in: Proceedings of the 4th International Conference on Recent Trends and Applications in Computer Science and Information Technology, volume 2872 of CEUR Workshop Proceedings, 2021, pp. 74–83.
+	 
+Bibtex entry:
+
+	 @inproceedings{Sernani2021,
+	  author={Sernani, Paolo and Pacifici, Iacopo and Falcionelli, Nicola and Tomassini, Selenete and Dragoni, Aldo Franco},
+	  title={Italian sign language alphabet recognition from surface EMG and IMU sensors with a deep neural network},
+	  booktitle={Proceedings of the 4th International Conference on Recent Trends and Applications in Computer Science and Information Technology},
+	  series={CEUR Workshop Proceedings},
+	  year={2021},
+	  volume={2872},
+	  pages={74-83},
+	  url={http://ceur-ws.org/Vol-2872/paper11.pdf},
+	 }
+
+The paper is open access and available here <http://ceur-ws.org/Vol-2872/paper11.pdf>.
 
