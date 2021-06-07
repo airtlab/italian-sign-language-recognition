@@ -59,7 +59,7 @@ The source code of the experiments is freely released for research and education
 Bibtex entry:
 
 	 @inproceedings{Sernani2021,
-	  author={Sernani, Paolo and Pacifici, Iacopo and Falcionelli, Nicola and Tomassini, Selenete and Dragoni, Aldo Franco},
+	  author={Sernani, Paolo and Pacifici, Iacopo and Falcionelli, Nicola and Tomassini, Selene and Dragoni, Aldo Franco},
 	  title={Italian sign language alphabet recognition from surface {EMG} and {IMU} sensors with a deep neural network},
 	  booktitle={Proceedings of the 4th International Conference on Recent Trends and Applications in Computer Science and Information Technology},
 	  series={CEUR Workshop Proceedings},
